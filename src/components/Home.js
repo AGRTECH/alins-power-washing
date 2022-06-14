@@ -38,14 +38,18 @@ const Home = () => {
             <div className={styles.homeBotRight}>
               <ul className={styles.homeBotRightLeftList}>
                 <li></li>
-                <li>Location</li>
-                <li>Email</li>
+                <li>
+                  Location<span className={styles.invisText}>ff</span>
+                </li>
+                <li>
+                  Email <span className={styles.invisText}>ff</span>
+                </li>
                 <li>Phone</li>
               </ul>
               <ul className={styles.homeBotRightRightList}>
                 <li></li>
                 <li>Macomb & Oakland County</li>
-                <li>alinspowerwashing@gmail.com</li>
+                <li>alinspower washing@ gmail.com</li>
                 <li>(586) 651-6917</li>
               </ul>
             </div>

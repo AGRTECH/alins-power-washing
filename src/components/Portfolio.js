@@ -7,13 +7,13 @@ const Portfolio = () => {
   return (
     <>
       <div
-        className={`${styles.aboutContainer} ${styles.homeContainerSmaller}`}
+        className={`${styles.aboutContainer} ${styles.homeContainerSmaller} `}
       >
         <div className={`${styles.innerAboutContainer}`}>
           <div className={styles.homeTopFlex}>
             <div></div>
             <ul className={styles.nameList}>
-              <li className={styles.aboutName}>Services</li>
+              <li className={styles.serviceName}>Services</li>
               <li className={styles.homeOccupation}></li>
             </ul>
             <div></div>
@@ -21,7 +21,7 @@ const Portfolio = () => {
           <div className={styles.homeBotFlex}>
             <div className={styles.homeBotLeft}>
               <p className={styles.everpayTitle}>Power Washing</p>
-              <ul>
+              <ul className={styles.serviceList}>
                 <li>Exterior House</li>
                 <li>Driveway</li>
                 <li>Deck & Patio</li>
@@ -54,7 +54,7 @@ const Portfolio = () => {
             </div>
             <div className={styles.homeBotLeft}>
               <p className={styles.transparentVotingTitle}></p>
-              <img src={driveway} alt="hello" />
+              <img src={driveway} alt="hello" width="550px" />
               <div>
                 {/* https://drive.google.com/file/d/1zA3Jx-ifjzlEBcXDVSX4othSllvrpSI4/view?usp=sharing */}
                 {/* <Button

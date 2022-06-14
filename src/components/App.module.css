@@ -70,6 +70,10 @@
 .everpayTitle {
   font-weight: bold;
   color: rgba(14, 111, 39, 0.824);
+  font-size: 33px;
+}
+
+.serviceList {
   font-size: 20px;
 }
 
@@ -93,6 +97,10 @@
 }
 
 .aboutName {
+  font-size: 45px;
+}
+
+.serviceName {
   font-size: 45px;
 }
 
@@ -138,6 +146,10 @@
   margin-right: 7px;
 }
 
+.invisText {
+  color: white;
+}
+
 @media (max-width: 1000px) {
   .homeContainerSmaller {
     margin: 0 50px 0 50px;
@@ -148,6 +160,22 @@
   .homeTopFlexIphone {
     display: flex;
     flex-direction: column;
+  }
+
+  /* .everpayTitle {
+    margin-top: 50px;
+  } */
+
+  /* .serviceName {
+    margin-top: 30px;
+  } */
+
+  .serviceContainer {
+    height: 400px;
+  }
+
+  .invisText {
+    color: white;
   }
 
   .homeNameIphone {
@@ -176,7 +204,7 @@
   }
 
   .aboutContainer {
-    height: 1000px;
+    height: 550px;
   }
 
   .contactContainer {
@@ -235,6 +263,7 @@
 
   .homeDescription {
     text-align: center;
+    margin-top: 15px;
   }
 
   .nameList {
