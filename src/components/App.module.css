@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .bodyBackground {
@@ -151,11 +151,11 @@
   }
 
   .homeNameIphone {
-    font-size: 30px;
+    font-size: 23px;
   }
 
   .homeNameOccupationIphone {
-    font-size: 18px;
+    font-size: 13px;
     margin-top: 0px;
   }
 

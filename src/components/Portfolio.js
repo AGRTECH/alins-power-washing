@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./App.module.css";
 import { Button } from "react-bootstrap";
+import driveway from "../img/drivewaybaa.jpg";
 
 const Portfolio = () => {
   return (
@@ -12,23 +13,24 @@ const Portfolio = () => {
           <div className={styles.homeTopFlex}>
             <div></div>
             <ul className={styles.nameList}>
-              <li className={styles.aboutName}>My portfolio</li>
+              <li className={styles.aboutName}>Services</li>
               <li className={styles.homeOccupation}></li>
             </ul>
             <div></div>
           </div>
           <div className={styles.homeBotFlex}>
             <div className={styles.homeBotLeft}>
-              <p className={styles.everpayTitle}>Everpay</p>
-              <p>
-                A payment streaming app. Streams money to the receiver every
-                second over a specified interval of time and can be withdrawn at
-                any time. This could be used as payment to employees from
-                employers instead of the traditional, get paid every 2 weeks
-                method.
-              </p>
+              <p className={styles.everpayTitle}>Power Washing</p>
+              <ul>
+                <li>Exterior House</li>
+                <li>Driveway</li>
+                <li>Deck & Patio</li>
+                <li>Car & Truck</li>
+                <li>Stairs & Walkway</li>
+                <li>Garage Door/Floor</li>
+              </ul>
               <div>
-                <Button
+                {/* <Button
                   onClick={(e) => {
                     e.preventDefault();
                     window.open(
@@ -47,22 +49,15 @@ const Portfolio = () => {
                   }}
                 >
                   Code
-                </Button>
+                </Button> */}
               </div>
             </div>
             <div className={styles.homeBotLeft}>
-              <p className={styles.transparentVotingTitle}>
-                Transparent Voting
-              </p>
-              <p>
-                A voting and poll creation app. You create a poll, or just vote
-                on existing polls. Can be any category and users can only vote
-                once per poll. Results are shown after a time interval and
-                winner is revealed.
-              </p>
+              <p className={styles.transparentVotingTitle}></p>
+              <img src={driveway} alt="hello" />
               <div>
                 {/* https://drive.google.com/file/d/1zA3Jx-ifjzlEBcXDVSX4othSllvrpSI4/view?usp=sharing */}
-                <Button
+                {/* <Button
                   className={styles.buttonLiveDemo}
                   onClick={(e) => {
                     e.preventDefault();
@@ -85,7 +80,7 @@ const Portfolio = () => {
                   }}
                 >
                   Code
-                </Button>
+                </Button> */}
               </div>
             </div>
             <div></div>

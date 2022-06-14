@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./App.module.css";
 import nftImg from "../img/mynft.png";
+import powerWashLogo from "../img/powerwashlogo.png";
 
 const Home = () => {
   return (
@@ -10,40 +11,41 @@ const Home = () => {
           <div className={`${styles.homeTopFlex} ${styles.homeTopFlexIphone}`}>
             <img
               className={`${styles.nftImage} ${styles.nftImageIphone}`}
-              src={nftImg}
+              src={powerWashLogo}
               alt="no img"
             />
             <ul className={styles.nameList}>
               <li className={`${styles.homeName} ${styles.homeNameIphone}`}>
-                Alex Ross
+                Alin's Power Washing
               </li>
               <li
                 className={`${styles.homeOccupation} ${styles.homeNameOccupationIphone}`}
               >
-                dApp Developer
+                Exterior Home & Driveway Cleaning
               </li>
             </ul>
             <div></div>
           </div>
           <div className={styles.homeBotFlex}>
             <div className={styles.homeBotLeft}>
-              <p className={styles.homeDescription}>About Me</p>
+              <p className={styles.homeDescription}>About Us</p>
               <p className={styles.homeDescription}>
-                I am a self-taught developer, programming for 2+ years mostly 
-                specializing in <span className={styles.frontEndText}>Front-End (Javascript, React, Redux etc.)</span>  +  <span className={styles.backEndText}>Solidity Back-End (truffle / ganache, web3, openzeppelin etc.)</span>.
+                Our aim is to make your exterior home look and feel as
+                beauitiful as possible and for as long as possible, for an
+                affordable price.
               </p>
             </div>
             <div className={styles.homeBotRight}>
               <ul className={styles.homeBotRightLeftList}>
-                <li>Age</li>
-                <li>Residence</li>
-                <li>email</li>
+                <li></li>
+                <li>Location</li>
+                <li>Email</li>
                 <li>Phone</li>
               </ul>
               <ul className={styles.homeBotRightRightList}>
-                <li>22</li>
-                <li>Michigan, USA</li>
-                <li>xarossx@ yahoo.com</li>
+                <li></li>
+                <li>Macomb & Oakland County</li>
+                <li>alinspowerwashing@gmail.com</li>
                 <li>(586) 651-6917</li>
               </ul>
             </div>

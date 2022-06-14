@@ -11,13 +11,13 @@ const Nav = (props) => {
       className={`${styles.nav} ${styles.navSmaller} ${styles.navIphone}
       `}
     >
-      <h4 className={styles.nameNav}>AGR</h4>
+      <h4 className={styles.nameNav}>APW</h4>
       <ul className={`${styles.listFlex}`}>
         <li>
           <Link to={"/home"}>home</Link>
         </li>
         <li>
-          <Link to={"/portfolio"}>portfolio</Link>
+          <Link to={"/portfolio"}>services</Link>
         </li>
         {/* <li>
           <Link to={"/about"}>about</Link>
