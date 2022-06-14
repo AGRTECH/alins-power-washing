@@ -150,6 +150,20 @@
   color: white;
 }
 
+.baaPic {
+  width: 550px;
+}
+
+.beauText {
+  color: blue;
+  font-weight: bold;
+}
+
+.longText {
+  color: blue;
+  font-weight: bold;
+}
+
 @media (max-width: 1000px) {
   .homeContainerSmaller {
     margin: 0 50px 0 50px;
@@ -162,13 +176,23 @@
     flex-direction: column;
   }
 
-  /* .everpayTitle {
-    margin-top: 50px;
-  } */
+  .everpayTitle {
+    font-weight: bold;
+    color: rgba(14, 111, 39, 0.824);
+    font-size: 20px;
+    text-align: center;
+  }
 
-  /* .serviceName {
-    margin-top: 30px;
-  } */
+  .serviceList {
+    font-size: 12px;
+    text-align: center;
+    list-style: none;
+    margin-right: 23px;
+  }
+
+  .baaPic {
+    width: 220px;
+  }
 
   .serviceContainer {
     height: 400px;

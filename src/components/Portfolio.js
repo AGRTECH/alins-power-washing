@@ -54,7 +54,7 @@ const Portfolio = () => {
             </div>
             <div className={styles.homeBotLeft}>
               <p className={styles.transparentVotingTitle}></p>
-              <img src={driveway} alt="hello" width="550px" />
+              <img src={driveway} alt="hello" className={styles.baaPic} />
               <div>
                 {/* https://drive.google.com/file/d/1zA3Jx-ifjzlEBcXDVSX4othSllvrpSI4/view?usp=sharing */}
                 {/* <Button

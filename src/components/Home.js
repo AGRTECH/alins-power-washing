@@ -30,9 +30,10 @@ const Home = () => {
             <div className={styles.homeBotLeft}>
               <p className={styles.homeDescription}>About Us</p>
               <p className={styles.homeDescription}>
-                Our aim is to make your exterior home look and feel as
-                beauitiful as possible and for as long as possible, for an
-                affordable price.
+                Our aim is to make your exterior home look and feel as{" "}
+                <span className={styles.beauText}>beauitiful</span> as possible
+                and for as <span className={styles.longText}>long</span> as
+                possible, for an affordable price.
               </p>
             </div>
             <div className={styles.homeBotRight}>
