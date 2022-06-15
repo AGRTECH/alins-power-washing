@@ -327,3 +327,34 @@
     margin-top: 0px;
   }
 }
+
+@media (max-width: 1450px) {
+  .baaPic {
+    width: 500px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .baaPic {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .baaPic {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 950px) {
+  .baaPic {
+    width: 250px;
+  }
+}
+
+@media (max-width: 850px) {
+  .baaPic {
+    width: 200px;
+  }
+}
