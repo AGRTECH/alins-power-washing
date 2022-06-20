@@ -50,7 +50,7 @@ const Home = () => {
               <ul className={styles.homeBotRightRightList}>
                 <li></li>
                 <li>Macomb & Oakland County</li>
-                <li>alinspower washing@ gmail.com</li>
+                <li>hercules hosing@ gmail.com</li>
                 <li>(586) 651-6917</li>
               </ul>
             </div>
