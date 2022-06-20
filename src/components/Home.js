@@ -16,12 +16,12 @@ const Home = () => {
             />
             <ul className={styles.nameList}>
               <li className={`${styles.homeName} ${styles.homeNameIphone}`}>
-                Alin's Power Washing
+                Hercules Hosing
               </li>
               <li
                 className={`${styles.homeOccupation} ${styles.homeNameOccupationIphone}`}
               >
-                Exterior Home & Driveway Cleaning
+                Power Washing & Exterior Home Cleaning
               </li>
             </ul>
             <div></div>
