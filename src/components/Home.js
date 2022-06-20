@@ -33,7 +33,10 @@ const Home = () => {
                 Our aim is to make your exterior home look and feel as{" "}
                 <span className={styles.beauText}>beauitiful</span> as possible
                 and for as <span className={styles.longText}>long</span> as
-                possible, for an affordable price.
+                possible, for an affordable price. Every clean starts with a
+                pre-treament of perfectly curated chemicals followed by a
+                precise, <span className={styles.red}>high-psi</span> power
+                wash.
               </p>
             </div>
             <div className={styles.homeBotRight}>

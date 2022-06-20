@@ -152,6 +152,12 @@
 
 .baaPic {
   width: 550px;
+  border-radius: 15%;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
 }
 
 .beauText {
@@ -209,7 +215,7 @@
   .homeNameOccupationIphone {
     font-size: 13px;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
   }
 
   .nftImageIphone {
@@ -225,11 +231,11 @@
       rgba(30, 139, 195, 0.3) 45%,
       rgba(30, 139, 195, 0.3)
     );
-    height: 720px;
+    height: 820px;
   }
 
   .aboutContainer {
-    height: 550px;
+    height: 600px;
   }
 
   .contactContainer {
@@ -314,7 +320,7 @@
       rgba(30, 139, 195, 0.3) 45%,
       rgba(30, 139, 195, 0.3)
     );
-    height: 820px;
+    height: 900px;
   }
 
   .homeNameIphone {
