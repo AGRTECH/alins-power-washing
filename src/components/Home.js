@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./App.module.css";
 import nftImg from "../img/mynft.png";
 import powerWashLogo from "../img/powerwashlogo.png";
+import Hercules from "../img/HerculesHosingLogo1.png";
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
           <div className={`${styles.homeTopFlex} ${styles.homeTopFlexIphone}`}>
             <img
               className={`${styles.nftImage} ${styles.nftImageIphone}`}
-              src={powerWashLogo}
+              src={Hercules}
               alt="no img"
             />
             <ul className={styles.nameList}>
@@ -52,7 +53,7 @@ const Home = () => {
               </ul>
               <ul className={styles.homeBotRightRightList}>
                 <li></li>
-                <li>Macomb & Oakland County</li>
+                <li>Macomb & Oakland County, MI</li>
                 <li>hercules hosing@ gmail.com</li>
                 <li>(586) 651-6917</li>
               </ul>

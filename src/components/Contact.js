@@ -10,47 +10,100 @@ const Contact = () => {
   return (
     <>
       <div
-        className={`${styles.aboutContainer} ${styles.homeContainerSmaller} ${styles.contactContainer}`}
+        className={`${styles.homeContainerSmaller} ${styles.contactContainer}`}
       >
-        <div className={`${styles.innerAboutContainer}`}>
+        <div className={`${styles.innerContactContainer}`}>
           <div className={styles.homeTopFlex}>
             <div></div>
             <ul className={styles.nameList}>
-              <li className={styles.aboutName}>Contact</li>
+              <li className={styles.contactName}>Request A free Estimate</li>
+              <li className={styles.contactDescription}>
+                Fill out our contact form below. We will get back to you during
+                normal working hours.
+              </li>
               <li className={styles.homeOccupation}></li>
             </ul>
             <div></div>
           </div>
           <div className={styles.contactBot}>
             <Form
-              action="https://formsubmit.co/xarossx@yahoo.com"
+              action="https://formsubmit.co/herculeshosing@gmail.com"
               method="POST"
+              className={styles.form}
             >
-              <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Label>Name</Form.Label>
-                <Form.Control
-                  onChange={(e) => {
-                    setName(e.target.value);
-                  }}
-                  type="name"
-                  name="name"
-                  placeholder="Enter name"
-                  required
-                />
-              </Form.Group>
+              <div className={styles.nameAndEmail}>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Control
+                    className={styles.nameForm}
+                    onChange={(e) => {
+                      setName(e.target.value);
+                    }}
+                    type="name"
+                    name="name"
+                    placeholder="Enter name"
+                    required
+                  />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Control
+                    onChange={(e) => {
+                      setName(e.target.value);
+                    }}
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </Form.Group>
 
-              <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Label>Email</Form.Label>
-                <Form.Control
-                  onChange={(e) => {
-                    setEmail(e.target.value);
-                  }}
-                  type="email"
-                  name="email"
-                  placeholder="Enter email"
-                  required
-                />
-              </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Control
+                    onChange={(e) => {
+                      setName(e.target.value);
+                    }}
+                    type="phone"
+                    name="phone"
+                    placeholder="Phone"
+                    required
+                  />
+                </Form.Group>
+              </div>
+              <div className={styles.nameAndEmail}>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Control
+                    onChange={(e) => {
+                      setName(e.target.value);
+                    }}
+                    type="address"
+                    name="address"
+                    placeholder="Address"
+                    required
+                  />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="formBasicEmail">
+                  <Form.Control
+                    onChange={(e) => {
+                      setName(e.target.value);
+                    }}
+                    type="city"
+                    name="city"
+                    placeholder="City"
+                    required
+                  />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="formBasicPassword">
+                  <Form.Control
+                    onChange={(e) => {
+                      setEmail(e.target.value);
+                    }}
+                    type="zip"
+                    name="zip"
+                    placeholder="Zip Code"
+                    required
+                  />
+                </Form.Group>
+              </div>
               <Form.Group
                 className="mb-3"
                 controlId="formBasicCheckbox"
@@ -59,7 +112,6 @@ const Contact = () => {
                 className="mb-3"
                 controlId="exampleForm.ControlTextarea1"
               >
-                <Form.Label>Message for me</Form.Label>
                 <Form.Control
                   onChange={(e) => {
                     setMessage(e.target.value);
@@ -67,6 +119,17 @@ const Contact = () => {
                   as="textarea"
                   name="message"
                   rows={3}
+                  placeholder="Additional Notes"
+                />
+              </Form.Group>
+              <p>Save up to $200 by bundling!</p>
+              <Form.Group className="mb-3" controlId="formBasicCheckbox">
+                <Form.Check type="checkbox" label="Driveway Cleaning" />
+                <Form.Check type="checkbox" label="House Washing" />
+                <Form.Check type="checkbox" label="Patio/Deck Cleaning" />
+                <Form.Check
+                  type="checkbox"
+                  label="Other (Include in Additional Notes)"
                 />
               </Form.Group>
               <Button variant="primary" type="submit">

@@ -44,6 +44,46 @@
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.contactContainer {
+  height: 700px;
+  margin: 0 150px 0 150px;
+  /* background-color: rgba(30, 139, 195, 0.3); */
+  background-image: linear-gradient(
+    to top,
+    white,
+    white 75%,
+    rgba(30, 139, 195, 0.3) 25%,
+    rgba(30, 139, 195, 0.3)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.contactName {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameAndEmail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contactDescription {
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .innerHomeContainer {
   padding: 50px 50px 50px 50px;
 }
@@ -52,9 +92,18 @@
   padding: 25px 50px 50px 50px;
 }
 
+.innerContactContainer {
+  padding: 25px 15px 50px 15px;
+}
+
 .nftImage {
-  width: 300px;
+  width: 450px;
   height: 300px;
+}
+
+.nameNav {
+  width: 100px;
+  height: 100px;
 }
 
 .frontEndText {
@@ -182,6 +231,11 @@
     flex-direction: column;
   }
 
+  .nameAndEmail {
+    display: flex;
+    flex-direction: column;
+  }
+
   .everpayTitle {
     font-weight: bold;
     color: rgba(14, 111, 39, 0.824);
@@ -239,7 +293,18 @@
   }
 
   .contactContainer {
-    height: 500px;
+    height: 1250px;
+    background-image: linear-gradient(
+      to top,
+      white,
+      white 73%,
+      rgba(30, 139, 195, 0.3) 27%,
+      rgba(30, 139, 195, 0.3)
+    );
+  }
+
+  .contactName {
+    margin-bottom: 20px;
   }
 
   .homeBotFlex {
@@ -308,6 +373,17 @@
 }
 
 @media (max-width: 377px) {
+  .contactContainer {
+    height: 1250px;
+    background-image: linear-gradient(
+      to top,
+      white,
+      white 80%,
+      rgba(30, 139, 195, 0.3) 20%,
+      rgba(30, 139, 195, 0.3)
+    );
+  }
+
   .baaPic {
     width: 190px;
   }
