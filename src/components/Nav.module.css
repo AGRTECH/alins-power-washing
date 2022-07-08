@@ -11,12 +11,12 @@
   color: black;
   list-style-type: none;
   font-size: 18px;
-  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+  border-bottom: 1px rgba(255, 255, 255, 0.4) solid;
 }
 
 .nav li a {
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
 
 .nav li a.current {
@@ -35,7 +35,7 @@
 .nameNav {
   font-size: 25px;
   width: 200px;
-  color: black;
+  color: white;
 }
 
 @media (max-width: 1000px) {
@@ -48,6 +48,6 @@
   .nav li {
     margin-right: 10px;
     font-size: 14px;
-    border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.4) solid;
   }
 }

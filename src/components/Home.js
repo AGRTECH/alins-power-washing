@@ -3,6 +3,8 @@ import styles from "./App.module.css";
 import nftImg from "../img/mynft.png";
 import powerWashLogo from "../img/powerwashlogo.png";
 import Hercules from "../img/HerculesHosingLogo1.png";
+import "./background.css";
+import ParticlesBg from "particles-bg";
 
 const Home = () => {
   return (
@@ -55,13 +57,23 @@ const Home = () => {
                 <li></li>
                 <li>Macomb & Oakland County, MI</li>
                 <li>hercules hosing@ gmail.com</li>
-                <li>(586) 651-6917</li>
+                <li className={styles.phone}>(586) 696-4040</li>
               </ul>
             </div>
             <div></div>
           </div>
         </div>
       </div>
+      <ParticlesBg
+        type="lines"
+        bg={{
+          position: "absolute",
+          zIndex: -1,
+          top: 0,
+          left: 0,
+          height: 1000,
+        }}
+      />
     </>
   );
 };

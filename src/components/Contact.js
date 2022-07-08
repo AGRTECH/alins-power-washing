@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./App.module.css";
 import { Form, Button } from "react-bootstrap";
+import ParticlesBg from "particles-bg";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -9,6 +10,16 @@ const Contact = () => {
 
   return (
     <>
+      <ParticlesBg
+        type="lines"
+        bg={{
+          position: "absolute",
+          zIndex: -1,
+          top: 0,
+          left: 0,
+          height: 1500,
+        }}
+      />
       <div
         className={`${styles.homeContainerSmaller} ${styles.contactContainer}`}
       >
@@ -124,11 +135,24 @@ const Contact = () => {
               </Form.Group>
               <p>Save up to $200 by bundling!</p>
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                <Form.Check type="checkbox" label="Driveway Cleaning" />
-                <Form.Check type="checkbox" label="House Washing" />
-                <Form.Check type="checkbox" label="Patio/Deck Cleaning" />
                 <Form.Check
                   type="checkbox"
+                  name="driveway"
+                  label="Driveway Cleaning"
+                />
+                <Form.Check
+                  type="checkbox"
+                  name="housewash"
+                  label="House Washing"
+                />
+                <Form.Check
+                  type="checkbox"
+                  name="patiodeck"
+                  label="Patio/Deck Cleaning"
+                />
+                <Form.Check
+                  type="checkbox"
+                  name="other"
                   label="Other (Include in Additional Notes)"
                 />
               </Form.Group>

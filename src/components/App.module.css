@@ -2,7 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Titillium Web", sans-serif;
+  font-family: Olympus;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Olympus;
+  src: url("OLYMRG.TTF");
 }
 
 .bodyBackground {
@@ -15,16 +21,17 @@
   /* background-color: rgba(30, 139, 195, 0.3); */
   background-image: linear-gradient(
     to bottom,
-    rgba(199, 154, 17, 0.3),
-    rgba(199, 154, 17, 0.3) 50%,
-    white 50%,
-    white
+    rgba(199, 154, 17, 0.8),
+    rgba(199, 154, 17, 0.8) 55%,
+    rgba(255, 255, 255, 0.8) 45%,
+    rgba(255, 255, 255, 0.8)
   );
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  z-index: 1000;
 }
 .aboutContainer {
   height: 600px;
@@ -50,10 +57,10 @@
   /* background-color: rgba(30, 139, 195, 0.3); */
   background-image: linear-gradient(
     to top,
-    white,
-    white 75%,
-    rgba(30, 139, 195, 0.3) 25%,
-    rgba(30, 139, 195, 0.3)
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8) 75%,
+    rgba(30, 139, 195, 0.8) 25%,
+    rgba(30, 139, 195, 0.8)
   );
   background-size: cover;
   background-repeat: no-repeat;
@@ -66,6 +73,7 @@
   font-size: 45px;
   font-weight: bold;
   text-align: center;
+  font-family: Olympus;
 }
 
 .form {
@@ -86,6 +94,7 @@
 
 .innerHomeContainer {
   padding: 50px 50px 50px 50px;
+  z-index: 1000;
 }
 
 .innerAboutContainer {
@@ -139,10 +148,12 @@
 .homeTopFlex {
   display: flex;
   justify-content: space-between;
+  z-index: 1000;
 }
 
 .homeName {
   font-size: 65px;
+  font-family: Olympus;
 }
 
 .aboutName {
@@ -162,6 +173,7 @@
 .homeBotFlex {
   display: flex;
   justify-content: space-between;
+  z-index: 1000;
 }
 
 .contactBot {
@@ -173,22 +185,26 @@
   flex-direction: column;
   width: 40%;
   margin-top: 15px;
+  z-index: 1000;
 }
 
 .homeBotRight {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  z-index: 1000;
 }
 
 .homeBotRightLeftList {
   list-style: none;
   font-weight: bold;
+  z-index: 1000;
 }
 
 .homeBotRightRightList {
   list-style: none;
   color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
 }
 
 .buttonLiveDemo {
@@ -196,7 +212,7 @@
 }
 
 .invisText {
-  color: white;
+  color: rgba(255, 255, 255, 0.1);
 }
 
 .baaPic {
@@ -216,9 +232,15 @@
   font-weight: bold;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1060px) {
   .homeContainerSmaller {
     margin: 0 50px 0 50px;
+  }
+}
+
+@media (max-width: 860px) {
+  .homeContainerSmaller {
+    margin: 0 0px 0 0px;
   }
 }
 
@@ -226,6 +248,14 @@
   .homeTopFlexIphone {
     display: flex;
     flex-direction: column;
+  }
+
+  .homeContainerSmaller {
+    margin: 0 25px 0 25px;
+  }
+
+  .invisText {
+    color: rgba(255, 255, 255, 0.1);
   }
 
   .nameAndEmail {
@@ -255,10 +285,6 @@
     height: 400px;
   }
 
-  .invisText {
-    color: white;
-  }
-
   .homeNameIphone {
     font-size: 23px;
     text-align: center;
@@ -279,10 +305,10 @@
   .homeContainer {
     background-image: linear-gradient(
       to top,
-      white,
-      white 55%,
-      rgba(199, 154, 17, 0.3) 45%,
-      rgba(199, 154, 17, 0.3)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8) 55%,
+      rgba(199, 154, 17, 0.8) 45%,
+      rgba(199, 154, 17, 0.8)
     );
     height: 820px;
   }
@@ -295,10 +321,10 @@
     height: 1250px;
     background-image: linear-gradient(
       to top,
-      white,
-      white 73%,
-      rgba(30, 139, 195, 0.3) 27%,
-      rgba(30, 139, 195, 0.3)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8) 73%,
+      rgba(30, 139, 195, 0.8) 27%,
+      rgba(30, 139, 195, 0.8)
     );
   }
 
@@ -376,11 +402,15 @@
     height: 1250px;
     background-image: linear-gradient(
       to top,
-      white,
-      white 80%,
-      rgba(30, 139, 195, 0.3) 20%,
-      rgba(30, 139, 195, 0.3)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8) 70%,
+      rgba(30, 139, 195, 0.8) 30%,
+      rgba(30, 139, 195, 0.8)
     );
+  }
+
+  .invisText {
+    color: rgba(255, 255, 255, 0.1);
   }
 
   .baaPic {
@@ -390,10 +420,10 @@
   .homeContainer {
     background-image: linear-gradient(
       to top,
-      white,
-      white 55%,
-      rgba(199, 154, 17, 0.3) 45%,
-      rgba(199, 154, 17, 0.3)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8) 55%,
+      rgba(199, 154, 17, 0.8) 45%,
+      rgba(199, 154, 17, 0.8)
     );
     height: 900px;
   }
