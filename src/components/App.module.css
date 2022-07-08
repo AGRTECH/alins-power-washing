@@ -15,8 +15,8 @@
   /* background-color: rgba(30, 139, 195, 0.3); */
   background-image: linear-gradient(
     to bottom,
-    rgba(30, 139, 195, 0.3),
-    rgba(30, 139, 195, 0.3) 50%,
+    rgba(199, 154, 17, 0.3),
+    rgba(199, 154, 17, 0.3) 50%,
     white 50%,
     white
   );
@@ -205,17 +205,14 @@
 }
 
 .red {
-  color: red;
   font-weight: bold;
 }
 
 .beauText {
-  color: blue;
   font-weight: bold;
 }
 
 .longText {
-  color: blue;
   font-weight: bold;
 }
 
@@ -264,6 +261,7 @@
 
   .homeNameIphone {
     font-size: 23px;
+    text-align: center;
   }
 
   .homeNameOccupationIphone {
@@ -273,8 +271,9 @@
   }
 
   .nftImageIphone {
-    width: 180px;
+    width: 250px;
     height: 180px;
+    align-self: center;
   }
 
   .homeContainer {
@@ -282,8 +281,8 @@
       to top,
       white,
       white 55%,
-      rgba(30, 139, 195, 0.3) 45%,
-      rgba(30, 139, 195, 0.3)
+      rgba(199, 154, 17, 0.3) 45%,
+      rgba(199, 154, 17, 0.3)
     );
     height: 820px;
   }
@@ -393,8 +392,8 @@
       to top,
       white,
       white 55%,
-      rgba(30, 139, 195, 0.3) 45%,
-      rgba(30, 139, 195, 0.3)
+      rgba(199, 154, 17, 0.3) 45%,
+      rgba(199, 154, 17, 0.3)
     );
     height: 900px;
   }
