@@ -159,9 +159,7 @@ const Contact = () => {
               <Button
                 variant="primary"
                 type="submit"
-                onChange={(e) => {
-                  <script>fbq('track', 'Contact');</script>;
-                }}
+                onClick={(e) => window.fbq("track", "Lead")}
               >
                 Submit
               </Button>
