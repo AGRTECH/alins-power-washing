@@ -156,7 +156,13 @@ const Contact = () => {
                   label="Other (Include in Additional Notes)"
                 />
               </Form.Group>
-              <Button variant="primary" type="submit">
+              <Button
+                variant="primary"
+                type="submit"
+                onChange={(e) => {
+                  <script>fbq('track', 'Contact');</script>;
+                }}
+              >
                 Submit
               </Button>
             </Form>
