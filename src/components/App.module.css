@@ -130,7 +130,7 @@
 
 .everpayTitle {
   font-weight: bold;
-  color: rgba(14, 111, 39, 0.824);
+  color: rgba(4, 19, 85, 0.824);
   font-size: 33px;
 }
 
@@ -164,7 +164,8 @@
 }
 
 .serviceName {
-  font-size: 45px;
+  font-size: 55px;
+  color: rgba(4, 19, 85, 0.824);
 }
 
 .homeOccupation {
@@ -268,7 +269,7 @@
 
   .everpayTitle {
     font-weight: bold;
-    color: rgba(14, 111, 39, 0.824);
+    color: rgba(4, 19, 85, 0.824);
     font-size: 20px;
     text-align: center;
   }
