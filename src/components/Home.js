@@ -46,10 +46,10 @@ const Home = () => {
               <ul className={styles.homeBotRightLeftList}>
                 <li></li>
                 <li>
-                  Location<span className={styles.invisText}>ff</span>
+                  Location<span className={styles.invisText}>fffffffff</span>
                 </li>
                 <li>
-                  Email <span className={styles.invisText}>ff</span>
+                  Email <span className={styles.invisText}>ffffffff</span>
                 </li>
                 <li>Phone</li>
               </ul>
@@ -71,7 +71,7 @@ const Home = () => {
           zIndex: -1,
           top: 0,
           left: 0,
-          height: 1000,
+          height: 1400,
         }}
       />
     </>
