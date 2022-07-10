@@ -348,6 +348,8 @@
 
   .homeBotLeft {
     width: 100%;
+    text-align: center;
+    margin: 15px 15px 15px 15px;
   }
 
   .homeBotRight {
