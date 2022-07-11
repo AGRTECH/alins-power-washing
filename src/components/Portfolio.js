@@ -56,10 +56,10 @@ const Portfolio = () => {
               <p className={styles.everpayTitle}>Concrete Washing</p>
               <p>
                 Your want to keeping exterior concrete in bright, clean,
-                like-new condition is important. Bergen Beach Pressure Washing
-                is the perfect partner for this effort.Our concrete cleaning
-                services are a smart investment in your curb appeal, property
-                value, and brand reputation.
+                like-new condition is important. Hercules hosing is the perfect
+                partner for this effort.Our concrete cleaning services are a
+                smart investment in your curb appeal, property value, and brand
+                reputation.
               </p>
               <div></div>
             </div>
