@@ -17,7 +17,7 @@ const Portfolio = () => {
           zIndex: -1,
           top: 0,
           left: 0,
-          height: 2300,
+          height: 2500,
         }}
       />
       <div
