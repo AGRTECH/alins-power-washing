@@ -4,12 +4,10 @@ import Home from "./Home";
 import About from "./About";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
-import styles from "./App.module.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    
     <BrowserRouter>
       <Nav />
       <Routes>

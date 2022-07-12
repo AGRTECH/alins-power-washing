@@ -1,7 +1,5 @@
 import React from "react";
 import styles from "./App.module.css";
-import nftImg from "../img/mynft.png";
-import powerWashLogo from "../img/powerwashlogo.png";
 import Hercules from "../img/HerculesHosingLogo1.png";
 import "./background.css";
 import ParticlesBg from "particles-bg";

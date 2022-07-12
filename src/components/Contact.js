@@ -1,13 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./App.module.css";
 import { Form, Button } from "react-bootstrap";
 import ParticlesBg from "particles-bg";
 
 const Contact = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-
   return (
     <>
       <ParticlesBg
@@ -46,9 +42,7 @@ const Contact = () => {
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Control
                     className={styles.nameForm}
-                    onChange={(e) => {
-                      setName(e.target.value);
-                    }}
+                    onChange={(e) => {}}
                     type="name"
                     name="name"
                     placeholder="Name"
@@ -57,9 +51,7 @@ const Contact = () => {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Control
-                    onChange={(e) => {
-                      setName(e.target.value);
-                    }}
+                    onChange={(e) => {}}
                     type="email"
                     name="email"
                     placeholder="Email"
@@ -69,9 +61,7 @@ const Contact = () => {
 
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Control
-                    onChange={(e) => {
-                      setName(e.target.value);
-                    }}
+                    onChange={(e) => {}}
                     type="phone"
                     name="phone"
                     placeholder="Phone"
@@ -124,9 +114,7 @@ const Contact = () => {
                 controlId="exampleForm.ControlTextarea1"
               >
                 <Form.Control
-                  onChange={(e) => {
-                    setMessage(e.target.value);
-                  }}
+                  onChange={(e) => {}}
                   as="textarea"
                   name="message"
                   rows={3}
