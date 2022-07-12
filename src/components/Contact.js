@@ -51,7 +51,7 @@ const Contact = () => {
                     }}
                     type="name"
                     name="name"
-                    placeholder="Enter name"
+                    placeholder="Name"
                     required
                   />
                 </Form.Group>
