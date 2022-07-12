@@ -76,6 +76,7 @@
 .submitButton {
   background-color: rgba(199, 154, 17, 0.8);
   margin-bottom: 15px;
+  border-color: rgba(0, 0, 0, 0.4);
 }
 
 .lighter {
