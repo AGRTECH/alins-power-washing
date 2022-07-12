@@ -12,19 +12,19 @@ const Nav = (props) => {
       className={`${styles.nav} ${styles.navSmaller} ${styles.navIphone}
       `}
     >
-      <h4 className={styles.nameNav}>HH</h4>
+      <h4 className={styles.nameNav}></h4>
       <ul className={`${styles.listFlex}`}>
         <li>
-          <Link to={"/home"}>home</Link>
+          <Link to={"/home"}></Link>
         </li>
         <li>
-          <Link to={"/portfolio"}>services</Link>
+          <Link to={"/portfolio"}></Link>
         </li>
         {/* <li>
           <Link to={"/about"}>about</Link>
         </li> */}
         <li>
-          <Link to={"/contact"}>contact</Link>
+          <Link to={"/contact"}></Link>
         </li>
       </ul>
     </nav>
