@@ -133,7 +133,7 @@ const Contact = () => {
                   placeholder="Additional Notes"
                 />
               </Form.Group>
-              <p>Services Needed:</p>
+              <p className={styles.servicesNeeded}>Services Needed:</p>
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check
                   type="checkbox"

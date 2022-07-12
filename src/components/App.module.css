@@ -79,6 +79,10 @@
   border-color: rgba(0, 0, 0, 0.4);
 }
 
+.servicesNeeded {
+  margin-bottom: 3px;
+}
+
 .lighter {
   color: rgba(0, 0, 0, 0.6);
   text-align: center;
