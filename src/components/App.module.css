@@ -63,14 +63,32 @@
     to top,
     rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.8) 10%,
-    rgba(30, 139, 195, 0.8) 90%,
-    rgba(30, 139, 195, 0.8)
+    rgba(199, 154, 17, 0.8) 90%,
+    rgba(199, 154, 17, 0.8)
   );
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5%;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.submitButton {
+  background-color: rgba(199, 154, 17, 0.8);
+  margin-bottom: 15px;
+}
+
+.lighter {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin-bottom: 0px;
+  font-size: 22px;
+}
+
+.contactPhone {
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
 }
 
 .contactName {
@@ -332,8 +350,8 @@
       to top,
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8) 10%,
-      rgba(30, 139, 195, 0.8) 90%,
-      rgba(30, 139, 195, 0.8)
+      rgba(199, 154, 17, 0.8) 90%,
+      rgba(199, 154, 17, 0.8)
     );
   }
 
@@ -415,8 +433,8 @@
       to top,
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8) 10%,
-      rgba(30, 139, 195, 0.8) 90%,
-      rgba(30, 139, 195, 0.8)
+      rgba(199, 154, 17, 0.8) 90%,
+      rgba(199, 154, 17, 0.8)
     );
   }
 

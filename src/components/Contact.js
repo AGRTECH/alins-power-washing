@@ -80,7 +80,7 @@ const Contact = () => {
                 </Form.Group>
               </div>
               <div className={styles.nameAndEmail}>
-                <Form.Group className="mb-3" controlId="formBasicEmail">
+                {/* <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Control
                     onChange={(e) => {
                       setName(e.target.value);
@@ -101,9 +101,9 @@ const Contact = () => {
                     placeholder="City"
                     required
                   />
-                </Form.Group>
+                </Form.Group> */}
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
+                {/* <Form.Group className="mb-3" controlId="formBasicPassword">
                   <Form.Control
                     onChange={(e) => {
                       setEmail(e.target.value);
@@ -113,7 +113,7 @@ const Contact = () => {
                     placeholder="Zip Code"
                     required
                   />
-                </Form.Group>
+                </Form.Group> */}
               </div>
               <Form.Group
                 className="mb-3"
@@ -133,7 +133,7 @@ const Contact = () => {
                   placeholder="Additional Notes"
                 />
               </Form.Group>
-              <p>Save up to $200 by bundling!</p>
+              <p>Services Needed:</p>
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check
                   type="checkbox"
@@ -157,12 +157,15 @@ const Contact = () => {
                 />
               </Form.Group>
               <Button
+                className={styles.submitButton}
                 variant="primary"
                 type="submit"
                 onClick={(e) => window.fbq("track", "Contact")}
               >
-                Submit
+                Request a Free Estimate
               </Button>
+              <p className={styles.lighter}>For Immediate Assistance Call</p>
+              <p className={styles.contactPhone}>(586) 696-4040</p>
             </Form>
           </div>
         </div>
