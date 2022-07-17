@@ -61,6 +61,7 @@ const Contact = () => {
 
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Control
+                    className={styles.phoneField}
                     onChange={(e) => {}}
                     type="phone"
                     name="phone"
