@@ -15,16 +15,16 @@ const Nav = (props) => {
       <h4 className={styles.nameNav}></h4>
       <ul className={`${styles.listFlex}`}>
         <li>
-          <Link to={"/home"}></Link>
+          <Link to={"/home"}>Home</Link>
         </li>
         <li>
-          <Link to={"/portfolio"}></Link>
+          <Link to={"/portfolio"}>Services</Link>
         </li>
         {/* <li>
           <Link to={"/about"}>about</Link>
         </li> */}
         <li>
-          <Link to={"/contact"}></Link>
+          <Link to={"/contact"}>Contact</Link>
         </li>
       </ul>
     </nav>

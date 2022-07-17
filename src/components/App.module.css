@@ -57,7 +57,7 @@
 
 .contactContainer {
   height: 700px;
-  margin: 0 150px 0 150px;
+  margin: 25px 150px 0 150px;
   /* background-color: rgba(30, 139, 195, 0.3); */
   background-image: linear-gradient(
     to top,
@@ -351,6 +351,7 @@
   }
 
   .contactContainer {
+    margin-top: 25px;
     height: 1250px;
     background-image: linear-gradient(
       to top,
@@ -434,6 +435,7 @@
 
 @media (max-width: 377px) {
   .contactContainer {
+    margin-top: 25px;
     height: 1250px;
     background-image: linear-gradient(
       to top,

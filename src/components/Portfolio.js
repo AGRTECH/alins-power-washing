@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./Nav";
 import styles from "./App.module.css";
 import { Button } from "react-bootstrap";
 import driveway from "../img/beforeandafterfbad.png";
@@ -10,6 +11,7 @@ import deck from "../img/wooddeck.jpg";
 const Portfolio = () => {
   return (
     <>
+      <Nav />
       <ParticlesBg
         type="lines"
         bg={{

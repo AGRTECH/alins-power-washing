@@ -3,10 +3,12 @@ import styles from "./App.module.css";
 import Hercules from "../img/HerculesHosingLogo1.png";
 import "./background.css";
 import ParticlesBg from "particles-bg";
+import Nav from "./Nav";
 
 const Home = () => {
   return (
     <>
+      <Nav />
       <div className={`${styles.homeContainer} ${styles.homeContainerSmaller}`}>
         <div className={`${styles.innerHomeContainer}`}>
           <div className={`${styles.homeTopFlex} ${styles.homeTopFlexIphone}`}>
