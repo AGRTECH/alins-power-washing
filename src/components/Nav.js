@@ -12,7 +12,9 @@ const Nav = (props) => {
       className={`${styles.nav} ${styles.navSmaller} ${styles.navIphone}
       `}
     >
-      <h4 className={styles.nameNav}></h4>
+      <h4 className={styles.nameNav}>
+        <img src={Hercules} alt="HH" className={styles.hercPic} />
+      </h4>
       <ul className={`${styles.listFlex}`}>
         <li>
           <Link to={"/home"}>Home</Link>

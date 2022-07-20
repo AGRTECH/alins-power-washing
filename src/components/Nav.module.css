@@ -33,9 +33,11 @@
   display: flex;
 }
 .nameNav {
-  font-size: 25px;
-  width: 200px;
-  color: white;
+}
+
+.hercPic {
+  width: 80px;
+  height: 40px;
 }
 
 @media (max-width: 1000px) {

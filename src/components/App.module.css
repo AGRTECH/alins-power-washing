@@ -56,7 +56,7 @@
 }
 
 .contactContainer {
-  height: 700px;
+  height: 2050px;
   margin: 25px 150px 0 150px;
   /* background-color: rgba(30, 139, 195, 0.3); */
   background-image: linear-gradient(
@@ -264,6 +264,40 @@
   font-weight: bold;
 }
 
+.seeWhat {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+}
+
+.margBot {
+  margin-bottom: 30px;
+}
+
+.center {
+  text-align: center;
+  font-size: 16px;
+}
+
+.test1 {
+  width: 550px;
+  height: 600px;
+  align-self: center;
+}
+.test2 {
+  width: 700px;
+  height: 600px;
+  align-self: center;
+}
+
+.margLeft {
+  margin-left: 30px;
+}
+
+.margDiffLeft {
+  margin-left: 75px;
+}
+
 @media (max-width: 1060px) {
   .homeContainerSmaller {
     margin: 0 50px 0 50px;
@@ -352,7 +386,7 @@
 
   .contactContainer {
     margin-top: 25px;
-    height: 1250px;
+    height: 1750px;
     background-image: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.8),
@@ -431,12 +465,20 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+  .test1 {
+    width: 310px;
+    height: 360px;
+  }
+  .test2 {
+    width: 350px;
+    height: 300px;
+  }
 }
 
 @media (max-width: 377px) {
   .contactContainer {
     margin-top: 25px;
-    height: 1250px;
+    height: 1700px;
     background-image: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.8),
@@ -479,6 +521,16 @@
   .homeNameOccupationIphone {
     font-size: 17px;
     margin-top: 0px;
+  }
+
+  .test1 {
+    width: 270px;
+    height: 320px;
+  }
+
+  .test2 {
+    width: 320px;
+    height: 280px;
   }
 }
 

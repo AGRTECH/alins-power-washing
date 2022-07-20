@@ -2,6 +2,9 @@ import React from "react";
 import styles from "./App.module.css";
 import { Form, Button } from "react-bootstrap";
 import ParticlesBg from "particles-bg";
+import Testimonial1 from "../img/IMG_8576.JPG";
+import Testimonial2 from "../img/yelpreview.png";
+import insurance from "../img/Hercules Hosing_COI.pdf";
 
 const Contact = () => {
   return (
@@ -13,7 +16,7 @@ const Contact = () => {
           zIndex: -1,
           top: 0,
           left: 0,
-          height: 1500,
+          height: 2200,
         }}
       />
       <div
@@ -153,8 +156,24 @@ const Contact = () => {
               >
                 Request a Free Estimate
               </Button>
+
+              <p className={styles.seeWhat}>
+                See What Others Have To Say About Our Services!
+              </p>
+              <img src={Testimonial1} alt="" className={styles.test1} />
+              <p className={`${styles.margBot} ${styles.margDiffLeft}`}>
+                -Joe (Sterling Heights, MI)
+              </p>
+              <img src={Testimonial2} alt="" className={styles.test2} />
+              <p className={`${styles.margBot} ${styles.margLeft}`}>
+                -Amanda R (Shelby Charter Township, MI)
+              </p>
+
               <p className={styles.lighter}>For Immediate Assistance Call</p>
               <p className={styles.contactPhone}>(586) 696-4040</p>
+              <a href={insurance} className={styles.center}>
+                Fully Insured For Your Protection! - Click To See
+              </a>
             </Form>
           </div>
         </div>
