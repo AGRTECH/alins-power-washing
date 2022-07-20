@@ -171,9 +171,9 @@ const Contact = () => {
 
               <p className={styles.lighter}>For Immediate Assistance Call</p>
               <p className={styles.contactPhone}>(586) 696-4040</p>
-              <a href={insurance} className={styles.center}>
-                Fully Insured For Your Protection! - Click To See
-              </a>
+              <p className={styles.center}>
+                Fully Insured For Your Protection!
+              </p>
             </Form>
           </div>
         </div>
