@@ -386,7 +386,7 @@
 
   .contactContainer {
     margin-top: 25px;
-    height: 1750px;
+    height: 1800px;
     background-image: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.8),
@@ -478,7 +478,7 @@
 @media (max-width: 377px) {
   .contactContainer {
     margin-top: 25px;
-    height: 1760px;
+    height: 1800px;
     background-image: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.8),
