@@ -56,7 +56,7 @@
 }
 
 .contactContainer {
-  height: 2050px;
+  height: 3000px;
   margin: 25px 150px 0 150px;
   /* background-color: rgba(30, 139, 195, 0.3); */
   background-image: linear-gradient(
@@ -290,6 +290,12 @@
   align-self: center;
 }
 
+.test3 {
+  width: 600px;
+  height: 800px;
+  align-self: center;
+}
+
 .margLeft {
   margin-left: 30px;
 }
@@ -386,7 +392,7 @@
 
   .contactContainer {
     margin-top: 25px;
-    height: 1800px;
+    height: 2300px;
     background-image: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.8),
@@ -473,12 +479,17 @@
     width: 350px;
     height: 300px;
   }
+
+  .test3 {
+    width: 350px;
+    height: 450px;
+  }
 }
 
 @media (max-width: 377px) {
   .contactContainer {
     margin-top: 25px;
-    height: 1800px;
+    height: 2250px;
     background-image: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.8),
@@ -531,6 +542,11 @@
   .test2 {
     width: 320px;
     height: 350px;
+  }
+
+  .test3 {
+    width: 300px;
+    height: 400px;
   }
 }
 

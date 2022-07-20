@@ -4,6 +4,7 @@ import { Form, Button } from "react-bootstrap";
 import ParticlesBg from "particles-bg";
 import Testimonial1 from "../img/IMG_8576.JPG";
 import Testimonial2 from "../img/yelpreview.png";
+import Testimonial3 from "../img/IMG_8679.PNG";
 import insurance from "../img/Hercules Hosing_COI.pdf";
 
 const Contact = () => {
@@ -16,7 +17,7 @@ const Contact = () => {
           zIndex: -1,
           top: 0,
           left: 0,
-          height: 2200,
+          height: 2500,
         }}
       />
       <div
@@ -167,6 +168,10 @@ const Contact = () => {
               <img src={Testimonial2} alt="" className={styles.test2} />
               <p className={`${styles.margBot} ${styles.margLeft}`}>
                 -Amanda R (Shelby Charter Township, MI)
+              </p>
+              <img src={Testimonial3} alt="" className={styles.test3} />
+              <p className={`${styles.margBot} ${styles.margLeft}`}>
+                -Kami S (Rochester, MI)
               </p>
 
               <p className={styles.lighter}>For Immediate Assistance Call</p>
