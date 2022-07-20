@@ -276,7 +276,7 @@
 
 .center {
   text-align: center;
-  font-size: 16px;
+  font-size: 15px;
 }
 
 .test1 {
@@ -478,7 +478,7 @@
 @media (max-width: 377px) {
   .contactContainer {
     margin-top: 25px;
-    height: 1700px;
+    height: 1760px;
     background-image: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.8),
@@ -530,7 +530,7 @@
 
   .test2 {
     width: 320px;
-    height: 280px;
+    height: 350px;
   }
 }
 
