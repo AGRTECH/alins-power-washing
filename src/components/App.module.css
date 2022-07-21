@@ -73,6 +73,11 @@
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+#root {
+  margin: 0;
+  padding: 0;
+}
+
 .submitButton {
   background-color: rgba(1, 47, 82, 0.8);
   margin-bottom: 15px;
@@ -392,7 +397,7 @@
 
   .contactContainer {
     /* height: 3000px; */
-    /* margin: 25px 150px 0 150px; */
+    margin: 0;
     /* background-color: rgba(30, 139, 195, 0.3); */
     background-image: linear-gradient(
       to top,
@@ -495,7 +500,7 @@
 @media (max-width: 377px) {
   .contactContainer {
     /* height: 3000px; */
-    /* margin: 25px 150px 0 150px; */
+    margin: 0;
     /* background-color: rgba(30, 139, 195, 0.3); */
     background-image: linear-gradient(
       to top,
