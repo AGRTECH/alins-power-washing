@@ -6,6 +6,10 @@ import Testimonial1 from "../img/IMG_8576.JPG";
 import Testimonial2 from "../img/yelpreview.png";
 import Testimonial3 from "../img/IMG_8679.PNG";
 import insurance from "../img/Hercules Hosing_COI.pdf";
+import sidewalk1 from "../img/sidewalkresult2.jpg";
+import sidewalk2 from "../img/sidewalkresult1.jpg";
+import patio from "../img/patioresult.jpg";
+import walkway from "../img/walkwayresult.jpg";
 
 const Contact = () => {
   return (
@@ -163,7 +167,11 @@ const Contact = () => {
               <p className={`${styles.margBot} ${styles.margLeft}`}>
                 -Kami S (Rochester, MI)
               </p>
-
+              <p className={styles.seeWhat}>Past Results!</p>
+              <img src={sidewalk1} alt="" className={styles.margBot} />
+              <img src={sidewalk2} alt="" className={styles.margBot} />
+              <img src={patio} alt="" className={styles.margBot} />
+              <img src={walkway} alt="" className={styles.margBot} />
               <p className={styles.lighter}>For Immediate Assistance Call</p>
               <p className={styles.contactPhone}>(586) 696-4040</p>
               <p className={styles.center}>
