@@ -56,25 +56,25 @@
 }
 
 .contactContainer {
-  height: 3000px;
-  margin: 25px 150px 0 150px;
+  /* height: 3000px; */
+  /* margin: 25px 150px 0 150px; */
   /* background-color: rgba(30, 139, 195, 0.3); */
   background-image: linear-gradient(
     to top,
     rgba(255, 255, 255, 0.8),
     rgba(255, 255, 255, 0.8) 10%,
-    rgba(199, 154, 17, 0.8) 90%,
-    rgba(199, 154, 17, 0.8)
+    rgba(20, 132, 236, 0.8) 90%,
+    rgba(20, 132, 236, 0.8)
   );
   background-size: cover;
   background-repeat: no-repeat;
-  border-radius: 5%;
+  /* border-radius: 5%; */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .submitButton {
-  background-color: rgba(199, 154, 17, 0.8);
+  background-color: rgba(1, 47, 82, 0.8);
   margin-bottom: 15px;
   border-color: rgba(0, 0, 0, 0.4);
 }
@@ -391,15 +391,21 @@
   }
 
   .contactContainer {
-    margin-top: 25px;
-    height: 2300px;
+    /* height: 3000px; */
+    /* margin: 25px 150px 0 150px; */
+    /* background-color: rgba(30, 139, 195, 0.3); */
     background-image: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8) 10%,
-      rgba(199, 154, 17, 0.8) 90%,
-      rgba(199, 154, 17, 0.8)
+      rgba(20, 132, 236, 0.8) 90%,
+      rgba(20, 132, 236, 0.8)
     );
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 5%; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
 
   .contactName {
@@ -488,15 +494,21 @@
 
 @media (max-width: 377px) {
   .contactContainer {
-    margin-top: 25px;
-    height: 2250px;
+    /* height: 3000px; */
+    /* margin: 25px 150px 0 150px; */
+    /* background-color: rgba(30, 139, 195, 0.3); */
     background-image: linear-gradient(
       to top,
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8) 10%,
-      rgba(199, 154, 17, 0.8) 90%,
-      rgba(199, 154, 17, 0.8)
+      rgba(20, 132, 236, 0.8) 90%,
+      rgba(20, 132, 236, 0.8)
     );
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-radius: 5%; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
   }
 
   .aboutContainer {

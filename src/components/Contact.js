@@ -10,16 +10,6 @@ import insurance from "../img/Hercules Hosing_COI.pdf";
 const Contact = () => {
   return (
     <>
-      <ParticlesBg
-        type="lines"
-        bg={{
-          position: "absolute",
-          zIndex: -1,
-          top: 0,
-          left: 0,
-          height: 2500,
-        }}
-      />
       <div
         className={`${styles.homeContainerSmaller} ${styles.contactContainer}`}
       >
