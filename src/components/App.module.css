@@ -301,6 +301,10 @@
   align-self: center;
 }
 
+.fontSize {
+  font-size: 20px;
+}
+
 .margLeft {
   margin-left: 30px;
 }
