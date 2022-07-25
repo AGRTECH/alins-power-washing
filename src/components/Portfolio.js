@@ -12,16 +12,7 @@ const Portfolio = () => {
   return (
     <>
       <Nav />
-      <ParticlesBg
-        type="lines"
-        bg={{
-          position: "absolute",
-          zIndex: -1,
-          top: 0,
-          left: 0,
-          height: 2600,
-        }}
-      />
+
       <div
         className={`${styles.aboutContainer} ${styles.homeContainerSmaller} `}
       >

@@ -152,7 +152,7 @@ const Contact = () => {
                 Request a Free Estimate
               </Button>
 
-              <p className={styles.seeWhat}>
+              {/* <p className={styles.seeWhat}>
                 See What Others Have To Say About Our Services!
               </p>
               <img src={Testimonial1} alt="" className={styles.test1} />
@@ -166,13 +166,13 @@ const Contact = () => {
               <img src={Testimonial3} alt="" className={styles.test3} />
               <p className={`${styles.margBot} ${styles.margLeft}`}>
                 -Kami S (Rochester, MI)
-              </p>
+              </p> */}
 
               <p className={styles.lighter}>For Immediate Assistance Call</p>
               <p className={styles.contactPhone}>(586) 696-4040</p>
-              <p className={styles.center}>
+              {/* <p className={styles.center}>
                 Fully Insured For Your Protection!
-              </p>
+              </p> */}
             </Form>
           </div>
         </div>
