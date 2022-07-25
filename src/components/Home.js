@@ -95,7 +95,7 @@ const Home = () => {
               className={`${styles.homeTopFlex} ${styles.homeTopFlexIphone}`}
             >
               <ul className={styles.nameList}>
-                <li className={styles.homeHeader2}>
+                <li className={`${styles.homeHeader2} ${styles.negMargBot}`}>
                   You Can Count On The Exterior Cleaning Experts
                 </li>
                 <li

@@ -630,7 +630,11 @@
   }
 
   .biggerContainer {
-    height: 2400px;
+    height: 1000px;
+  }
+
+  .biggerCard {
+    height: 900px;
   }
 
   .homeBotFlex {
@@ -687,12 +691,17 @@
   }
 
   .homeHeader2 {
-    font-size: 40px;
+    font-size: 25px;
     margin-top: 20px;
   }
 
+  .negMargBot {
+    margin-bottom: -40px;
+  }
+
   .surfaceCleaningPic {
-    width: 310px;
+    width: 300px;
+    height: 250px;
   }
 
   .thirdCard {
@@ -798,13 +807,15 @@
   }
 
   .galleryImg {
-    width: 60%;
-    margin-left: 130px;
+    width: 50%;
+    height: 300px;
+    margin-left: 160px;
   }
 
   .gutterImg {
-    width: 60%;
-    margin-left: 130px;
+    width: 50%;
+    margin-left: 160px;
+    height: 300px;
   }
 
   .serviceLine5 {
@@ -812,20 +823,35 @@
     font-size: 40px;
   }
 
-  /* .galleryContainer {
-    margin-right: 500px;
-    margin-left: 300px;
-  } */
+  .font3 {
+    font-size: 15px;
+  }
+
+  .font2 {
+    font-size: 15px;
+  }
+
+  .galleryContainer {
+    /* height: 1000px; */
+  }
 }
 
 @media (max-width: 380px) {
   .homeName {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 170px;
   }
 
+  .biggerContainer {
+    height: 1200px;
+  }
+
+  .biggerCard {
+    height: 700px;
+  }
+
   .homeOccupation {
-    font-size: 35px;
+    font-size: 30px;
     margin-top: 0;
   }
 
@@ -835,8 +861,12 @@
   }
 
   .homeHeader2 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 25px;
+  }
+
+  .font3 {
+    font-size: 15px;
   }
 
   .serviceLine2 {
