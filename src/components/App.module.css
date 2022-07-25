@@ -332,6 +332,7 @@
 
 .homeName {
   font-size: 100px;
+  margin-top: -60px;
 }
 
 .homeHeader2 {
@@ -383,6 +384,14 @@
   z-index: 1000;
 }
 
+.margBot4 {
+  margin-bottom: 40px;
+}
+
+.margRight7 {
+  margin-right: 600px;
+}
+
 .contactBot {
   padding: 0 200px 0 200px;
 }
@@ -409,6 +418,10 @@
   list-style: none;
   font-weight: bold;
   z-index: 1000;
+}
+
+.bigCard {
+  height: 1200px;
 }
 
 .homeBotRightRightList {
@@ -483,6 +496,10 @@
   width: 700px;
   height: 600px;
   align-self: center;
+}
+
+.negMargBot2 {
+  margin-bottom: -80px;
 }
 
 .test3 {
@@ -631,6 +648,10 @@
 
   .biggerContainer {
     height: 1000px;
+  }
+
+  .margRight7 {
+    margin-right: 0;
   }
 
   .biggerCard {

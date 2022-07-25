@@ -325,7 +325,7 @@ const Home = () => {
                     />
                   </li>
                   <li
-                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot} ${styles.margLeft}`}
+                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot} ${styles.margLeft} ${styles.margRight7}`}
                   >
                     <p className={styles.margBot3}>Macomb & Oakland County</p>
                   </li>

@@ -40,7 +40,7 @@ const Concrete = () => {
             >
               <ul className={styles.nameList}>
                 <li
-                  className={`${styles.thirdLineHome} ${styles.serviceLine1}`}
+                  className={`${styles.thirdLineHome} ${styles.serviceLine1} ${styles.margBot4}`}
                 >
                   Concrete Cleaning Macomb & Oakland County
                 </li>
@@ -99,7 +99,7 @@ const Concrete = () => {
       </div>
       <div className={styles.navHomeWrap}>
         <div
-          className={`${styles.biggerContainer} ${styles.homeContainerSmaller}`}
+          className={`${styles.biggerContainer} ${styles.homeContainerSmaller} ${styles.bigCard}`}
         >
           <div className={`${styles.smallerInnerContainer}`}>
             {/* <img src={Housewash} className={styles.backgroundImg} alt="" /> */}
@@ -127,7 +127,7 @@ const Concrete = () => {
               </div>
               <div className={styles.homeBotRight}>
                 <ul className={styles.homeBotRightLeftList}>
-                  <li className={`${styles.margBot2} ${styles.font2}`}>
+                  <li className={`${styles.margBot2} ${styles.font2} `}>
                     {" "}
                     Getting a good pressure washing service can be difficult,
                     sorting the bad service from those that excel in the field
@@ -270,7 +270,7 @@ const Concrete = () => {
                     />
                   </li>
                   <li
-                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot} ${styles.margLeft}`}
+                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot} ${styles.margLeft} ${styles.margRight7}`}
                   >
                     <p className={styles.margBot3}>Macomb & Oakland County</p>
                   </li>

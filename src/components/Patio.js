@@ -38,7 +38,7 @@ const Patio = () => {
             >
               <ul className={styles.nameList}>
                 <li
-                  className={`${styles.thirdLineHome} ${styles.serviceLine1}`}
+                  className={`${styles.thirdLineHome} ${styles.serviceLine1} ${styles.margBot4}`}
                 >
                   Patio / Deck Cleaning Macomb & Oakland County
                 </li>
@@ -97,7 +97,7 @@ const Patio = () => {
       </div>
       <div className={styles.navHomeWrap}>
         <div
-          className={`${styles.biggerContainer} ${styles.homeContainerSmaller}`}
+          className={`${styles.biggerContainer} ${styles.homeContainerSmaller} ${styles.bigCard}`}
         >
           <div className={`${styles.smallerInnerContainer}`}>
             {/* <img src={Housewash} className={styles.backgroundImg} alt="" /> */}
@@ -235,7 +235,7 @@ const Patio = () => {
                     />
                   </li>
                   <li
-                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot} ${styles.margLeft}`}
+                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot} ${styles.margLeft} ${styles.margRight7}`}
                   >
                     <p className={styles.margBot3}>Macomb & Oakland County</p>
                   </li>
