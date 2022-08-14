@@ -24,6 +24,12 @@ import sidewalk1 from "../img/sidewalkresult2.jpg";
 import sidewalk2 from "../img/sidewalkresult1.jpg";
 import patio from "../img/patioresult.jpg";
 import walkway from "../img/walkwayresult.jpg";
+import kriskumar1 from "../img/kriskumarba1.JPG";
+import kriskumar2 from "../img/kriskumarba2.JPG";
+import kriskumar3 from "../img/kriskumargraffiti1.JPG";
+import kriskumar4 from "../img/kriskumargraffiti2.JPG";
+import kriskumar5 from "../img/kriskumar3.jpg";
+import justinroof from "../img/justinroof.jpg";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -118,21 +124,21 @@ const Gallery = () => {
             </div>
             <div className={styles.thirdCard}>
               <div className={styles.galleryCard}>
-                <img src={pic1} className={styles.gutterImg} alt="" />
+                <img src={kriskumar4} className={styles.gutterImg} alt="" />
               </div>
               <div className={styles.galleryCard}>
-                <img src={pic2} className={styles.galleryImg} alt="" />
+                <img src={kriskumar2} className={styles.galleryImg} alt="" />
               </div>
               <div className={styles.galleryCard}>
-                <img src={sidewalk2} className={styles.galleryImg} alt="" />
+                <img src={kriskumar5} className={styles.galleryImg} alt="" />
               </div>
             </div>
             <div className={styles.thirdCard}>
               <div className={styles.galleryCard}>
-                <img src={pic3} className={styles.galleryImg} alt="" />
+                <img src={kriskumar1} className={styles.galleryImg} alt="" />
               </div>
               <div className={styles.galleryCard}>
-                <img src={pic5} className={styles.galleryImg} alt="" />
+                <img src={justinroof} className={styles.galleryImg} alt="" />
               </div>
               <div className={styles.galleryCard}>
                 <img src={patio} className={styles.galleryImg} alt="" />
@@ -143,10 +149,10 @@ const Gallery = () => {
                 <img src={walkway} className={styles.galleryImg} alt="" />
               </div>
               <div className={styles.galleryCard}>
-                <img src={pic4} className={styles.galleryImg} alt="" />
+                <img src={kriskumar3} className={styles.galleryImg} alt="" />
               </div>
               <div className={styles.galleryCard}>
-                <img src={deck} className={styles.galleryImg} alt="" />
+                <img src={pic3} className={styles.galleryImg} alt="" />
               </div>
             </div>
             {/* <div className={styles.thirdCard}>

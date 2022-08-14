@@ -36,6 +36,12 @@ const Contact = () => {
               method="POST"
               className={styles.form}
             >
+              <input type="hidden" name="_captcha" value="false"></input>
+              {/* <input
+                type="hidden"
+                name="_next"
+                value="https://herculeshosing.herokuapp.com/"
+              ></input> */}
               <div className={styles.nameAndEmail}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Control
