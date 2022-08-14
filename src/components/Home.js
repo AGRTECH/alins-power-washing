@@ -87,7 +87,7 @@ const Home = () => {
       </div>
       <div className={styles.navHomeWrap}>
         <div
-          className={`${styles.homeContainerSmaller} ${styles.biggerContainer} `}
+          className={`${styles.homeContainerSmaller} ${styles.bigContainer} `}
         >
           <div className={`${styles.innerHomeContainer}`}>
             {/* <img src={Housewash} className={styles.backgroundImg} alt="" /> */}
