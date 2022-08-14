@@ -651,7 +651,7 @@
   }
 
   .bigContainer {
-    height: 1300px;
+    height: 1150px;
   }
 
   .margRight7 {
@@ -869,6 +869,10 @@
 
   .biggerContainer {
     height: 1200px;
+  }
+
+  .bigContainer {
+    height: 1300px;
   }
 
   .biggerCard {
