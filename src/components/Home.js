@@ -119,11 +119,11 @@ const Home = () => {
                     {" "}
                     Blast the dirt off your pathways, wooden platforms, vinyl
                     fences, store fronts, dumpster areas, driveways, garages and
-                    more with the help of locally owned Hercules Hosing - Power
-                    Washing Crew. Add hygiene and cleanliness to your space
-                    instantly with our washing services. We use quality pressure
-                    washing equipment to power wash or soft wash your
-                    residential or commercial exterior surfaces.
+                    more with the help of locally owned Hercules Power Washing
+                    Crew. Add hygiene and cleanliness to your space instantly
+                    with our washing services. We use quality pressure washing
+                    equipment to power wash or soft wash your residential or
+                    commercial exterior surfaces.
                   </li>
                   <li className={styles.font3}>
                     We know that your home is a big investment for you, both
