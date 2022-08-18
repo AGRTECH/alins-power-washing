@@ -8,6 +8,7 @@ import Housewash from "../img/housewashnologo.jpg";
 import SurfaceCleaning from "../img/surfacecleaning1.jpg";
 import HouseWashCloseUp from "../img/housewashcloseup.jpg";
 import SurfaceCleaningCloseUp from "../img/surfacecleanercloseup.jpg";
+import dualSurfaceClean from "../img/dualsurfacecleanerpic1.jfif";
 import droneViewHouse from "../img/dronehouse.jpg";
 import serviceArea from "../img/servicearea.png";
 import Time from "../img/timeicon.png";
@@ -108,7 +109,7 @@ const Home = () => {
             <div className={styles.homeBotFlex}>
               <div className={styles.homeBotLeft}>
                 <img
-                  src={SurfaceCleaning}
+                  src={dualSurfaceClean}
                   className={styles.surfaceCleaningPic}
                   alt=""
                 />
