@@ -407,6 +407,10 @@
   margin-right: 40px;
 }
 
+.krisvideo {
+  width: 100%;
+}
+
 .homeBotRight {
   display: flex;
   justify-content: space-between;
