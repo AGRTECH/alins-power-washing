@@ -128,13 +128,7 @@ const Gallery = () => {
                 <img src={kriskumar4} className={styles.gutterImg} alt="" />
               </div>
               <div className={styles.galleryCard}>
-                <video
-                  controls
-                  autoPlay
-                  loop
-                  muted
-                  className={styles.galleryImg}
-                >
+                <video controls loop muted className={styles.galleryImg}>
                   <source
                     className={styles.krisvideo}
                     src={kriskumarvid}
