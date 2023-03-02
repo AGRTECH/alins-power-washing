@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./App.module.css";
 import Hercules from "../img/HerculesHosingLogo1.png";
+import "./App.css";
 import "./background.css";
 import ParticlesBg from "particles-bg";
 import Nav from "./Nav";
@@ -12,6 +13,10 @@ import dualSurfaceClean from "../img/dualsurfacecleanerpic1.jfif";
 import droneViewHouse from "../img/dronehouse.jpg";
 import dadSiding from "../img/dadsiding.jpg";
 import serviceArea from "../img/servicearea.png";
+import BeforeAndAfter from "./BeforeAndAfter";
+import FAQ from "./FAQ";
+import Reviews from "./Reviews";
+import GeneralCTA from "./GeneralCTA";
 import Time from "../img/timeicon.png";
 import Thumbs from "../img/thumbsupicon.png";
 import License from "../img/license.webp";
@@ -296,6 +301,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="global-reviewfaqcontainer">
+        <Reviews />
+        <FAQ />
+      </div>
+      <BeforeAndAfter />
+      <GeneralCTA />
       <div
         className={`${styles.navHomeWrap} ${styles.backgroundNavy} ${styles.biggerCointainer2}`}
       >

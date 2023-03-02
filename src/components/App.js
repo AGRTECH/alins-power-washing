@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 import Nav from "./Nav";
 import Home from "./Home";
 import About from "./About";
@@ -8,6 +9,7 @@ import HouseWash from "./HouseWash";
 import Patio from "./Patio";
 import Concrete from "./Concrete";
 import Gallery from "./Gallery";
+import ShadowScrollbars from "./ShadowScrollbars";
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useLayoutEffect } from "react";
 
@@ -21,6 +23,7 @@ const Wrapper = ({ children }) => {
 
 const App = () => {
   return (
+    // <ShadowScrollbars>
     <BrowserRouter>
       <Wrapper>
         <Routes>
@@ -36,6 +39,7 @@ const App = () => {
         <div className=""></div>
       </Wrapper>
     </BrowserRouter>
+    // </ShadowScrollbars>
   );
 };
 
