@@ -7,6 +7,31 @@ body {
   /* overflow-y: hidden; */
 }
 
+/* Section 2 */
+.section2-title {
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.section2-pic2 {
+  position: relative;
+  top: 0;
+  margin-left: -150px;
+  margin-top: 150px;
+  transition: top ease 0.5s;
+  width: 350px;
+  height: 340px;
+  border: 3px solid white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.section2-pic2:hover {
+  top: -10px;
+  background-color: rgba(247, 170, 3, 0.9);
+}
+
 /* Before and After */
 .beforeandafter-container {
   display: flex;
@@ -20,6 +45,8 @@ body {
 .beforeandafer-title {
   text-align: center;
   margin-bottom: 50px;
+  margin-top: 100px;
+  font-size: 55px;
 }
 
 .beforeandafter-card img {
@@ -50,7 +77,7 @@ body {
 }
 
 .faq-container {
-  width: 600px;
+  width: 710px;
   /* margin-left: 20px; */
   /* margin-top: 120px; */
 }
@@ -167,4 +194,10 @@ body {
 .global-reviewfaqcontainer {
   display: flex;
   background-color: #eff5f9;
+}
+
+/* Footer */
+.footer-flurrix {
+  width: 130px;
+  height: 30px;
 }

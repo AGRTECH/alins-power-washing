@@ -10,6 +10,7 @@ import SurfaceCleaning from "../img/surfacecleaning1.jpg";
 import HouseWashCloseUp from "../img/housewashcloseup.jpg";
 import SurfaceCleaningCloseUp from "../img/surfacecleanercloseup.jpg";
 import dualSurfaceClean from "../img/dualsurfacecleanerpic1.jfif";
+import pic2 from "../img/kriskumargraffiti2.JPG";
 import droneViewHouse from "../img/dronehouse.jpg";
 import dadSiding from "../img/dadsiding.jpg";
 import serviceArea from "../img/servicearea.png";
@@ -22,6 +23,7 @@ import Thumbs from "../img/thumbsupicon.png";
 import License from "../img/license.webp";
 import Money from "../img/moneyicon.png";
 import deck from "../img/wooddeck.jpg";
+import flurrix from "../img/flurrixwhitetrans.png";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -49,8 +51,8 @@ const Home = () => {
                   Macomb & Oakland County
                 </li>
                 <li className={styles.thirdLineHome}>
-                  Power Washing Services That Completely Restore The Look Of
-                  Your Home
+                  Fully Rejuvenate Your Home Back to It's Formal Glory & Impress
+                  Your Neighbors
                 </li>
               </ul>
               <div></div>
@@ -103,7 +105,7 @@ const Home = () => {
             >
               <ul className={styles.nameList}>
                 <li className={`${styles.homeHeader2} ${styles.negMargBot}`}>
-                  You Can Count On The Exterior Cleaning Experts
+                  {/* You Can Count On The Exterior Cleaning Experts */}
                 </li>
                 <li
                   className={`${styles.homeDescription2} ${styles.homeNameOccupationIphone}`}
@@ -114,15 +116,15 @@ const Home = () => {
             </div>
             <div className={styles.homeBotFlex}>
               <div className={styles.homeBotLeft}>
-                <img
-                  src={dadSiding}
-                  className={styles.surfaceCleaningPic}
-                  alt=""
-                />
+                <img src={pic2} className={styles.surfaceCleaningPic} alt="" />
+                <img src={dadSiding} className={"section2-pic2"} alt="" />
               </div>
               <div className={styles.homeBotRight}>
                 <ul className={styles.homeBotRightLeftList}>
-                  <li className={`${styles.margBot2} ${styles.font3}`}>
+                  <li className="section2-title">
+                    You Can Count On The Exterior Cleaning Experts
+                  </li>
+                  <li className={`${styles.margBot} ${styles.font3}`}>
                     {" "}
                     Blast the dirt off your pathways, wooden platforms, vinyl
                     fences, store fronts, dumpster areas, driveways, garages and
@@ -150,9 +152,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className={styles.navHomeWrap}>
+      <div className={`${styles.navHomeWrap} ${styles.backgroundGray}`}>
         <div
-          className={`${styles.biggerCointainer} ${styles.homeContainerSmaller} ${styles.backgroundGray}`}
+          className={`${styles.biggerCointainer} ${styles.homeContainerSmaller} `}
         >
           <div className={`${styles.innerHomeContainer}`}>
             {/* <img src={Housewash} className={styles.backgroundImg} alt="" /> */}
@@ -184,7 +186,7 @@ const Home = () => {
                   to={"/concrete"}
                 >
                   <Button
-                    className={`${styles.estimateButton} ${styles.center} ${styles.iphoneEstimate}`}
+                    className={`${styles.estimateButton} ${styles.center} `}
                   >
                     Learn More
                   </Button>
@@ -202,7 +204,7 @@ const Home = () => {
                   to={"/housewash"}
                 >
                   <Button
-                    className={`${styles.estimateButton} ${styles.center} ${styles.iphoneEstimate}`}
+                    className={`${styles.estimateButton} ${styles.center}`}
                   >
                     Learn More
                   </Button>
@@ -216,7 +218,7 @@ const Home = () => {
                   to={"/patio"}
                 >
                   <Button
-                    className={`${styles.estimateButton} ${styles.center} ${styles.iphoneEstimate}`}
+                    className={`${styles.estimateButton} ${styles.center} `}
                   >
                     Learn More
                   </Button>
@@ -263,7 +265,7 @@ const Home = () => {
         <div
           className={`${styles.biggerCointainer} ${styles.homeContainerSmaller} `}
         >
-          <div className={`${styles.innerHomeContainer}`}>
+          <div className={`${styles.innerHomeContainer2}`}>
             {/* <img src={Housewash} className={styles.backgroundImg} alt="" /> */}
             <div>
               <ul className={styles.nameList}>
@@ -348,9 +350,17 @@ const Home = () => {
                     herculeshosing@gmail.com
                   </li>
                   <li
-                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot3} ${styles.margLeft3}`}
+                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot3} ${styles.margLeft}`}
                   >
                     (586) 696-4040
+                  </li>
+                  <li
+                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot3} ${styles.margLeft}`}
+                  >
+                    <p>Website Design by</p>
+                    <a href="https://flurrix.vercel.app/home">
+                      <img className="footer-flurrix" src={flurrix} alt="" />
+                    </a>
                   </li>
                   <li
                     className={`${styles.fontSizeDescription} ${styles.textWhite}`}

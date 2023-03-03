@@ -95,7 +95,7 @@ img:hover {
   position: relative;
   top: 0;
   transition: top ease 0.5s;
-  border: 1px solid white;
+  border: 2px solid white;
   background-color: rgba(247, 170, 3, 0.9);
 }
 
