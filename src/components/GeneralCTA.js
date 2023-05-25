@@ -2,20 +2,20 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import styles from "./App.module.css";
-import droneViewHouse from "../img/dronehouse3.jpeg";
+import droneViewHouse from "../img/dronehouse.jpg";
 
 const GeneralCTA = () => {
   return (
-    <div className={`${styles.navHomeWrap2} ${styles.backgroundBlue}`}>
+    <div className={`${styles.navHomeWrap} ${styles.backgroundBlue}`}>
       <div
         className={`${styles.homeContainer} ${styles.homeContainerSmaller} ${styles.smallerCard} ${styles.margTop}`}
       >
         <div className={`${styles.innerHomeContainer}`}>
-          <img src={droneViewHouse} className={styles.backgroundImg2} alt="" />
+          <img src={droneViewHouse} className={styles.backgroundImg} alt="" />
           <div>
             <ul className={styles.nameList}>
               <li
-                className={`${styles.homeHeader3} ${styles.homeNameOccupationIphone} ${styles.center}`}
+                className={`${styles.homeHeader2} ${styles.homeNameOccupationIphone} ${styles.center}`}
               >
                 Are You Ready To Restore Your Property?
               </li>
