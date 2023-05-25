@@ -342,8 +342,8 @@ const Home = () => {
                     (586) 696-4040
                   </li>
                   <li
-<<<<<<< HEAD
-                    className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot3} ${styles.margLeft}`}
+                  // <<<<<<< HEAD
+                  // className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot3} ${styles.margLeft}`}
                   >
                     {/* <p>Website Design by</p> */}
                     {/* <a href="https://flurrix.vercel.app/home"> */}
@@ -351,8 +351,8 @@ const Home = () => {
                     {/* </a> */}
                   </li>
                   <li
-=======
->>>>>>> parent of 10d6345 (refine section 1 and 2)
+                    // =======
+
                     className={`${styles.fontSizeDescription} ${styles.textWhite}`}
                   >
                     <Link className={styles.noStyle} to={"/contact"}>
