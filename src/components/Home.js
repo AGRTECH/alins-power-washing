@@ -135,15 +135,13 @@ const Home = () => {
                     commercial exterior surfaces.
                   </li>
                   <li className={styles.font3}>
-                    We know that your home is a big investment for you, both
-                    personally and financially. Our team members have acquired
-                    many years of experience in pressure washing services, and
-                    we welcome the chance to add your name to our list of happy
-                    customers. From the top of your home to the tip of your
-                    driveway, we have the skills and the cleaning equipment to
-                    wash away all types of mold, mildew, dirt, pollen, algae,
-                    insect nests, and any other substance that has developed on
-                    your exterior surfaces.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum sequi repellat reprehenderit ipsam aperiam cumque
+                    harum repellendus, amet tempore inventore facilis sapiente
+                    assumenda odio doloribus temporibus consequatur non! Totam
+                    facere obcaecati dolore magnam tempore. Sequi, maxime ea
+                    debitis magni, incidunt fugiat numquam qui hic error in quam
+                    minima adipisci accusantium!
                   </li>
                 </ul>
               </div>
@@ -160,14 +158,13 @@ const Home = () => {
             {/* <img src={Housewash} className={styles.backgroundImg} alt="" /> */}
             <div>
               <ul className={styles.nameList}>
-                <li className={`${styles.homeDescription2} ${styles.center}`}>
-                  We Are So Glad You Are Here...
-                </li>
                 <li
-                  className={`${styles.homeHeader2} ${styles.homeNameOccupationIphone} ${styles.center}`}
+                  className={`${styles.homeDescription2} ${styles.center}`}
+                ></li>
+                <li
+                  className={`${styles.homeHeader4} ${styles.homeNameOccupationIphone} ${styles.center}`}
                 >
-                  How Can We Best{" "}
-                  <span className={styles.span1}>Serve You?</span>
+                  Everything You Need For A Brand New Home
                 </li>
                 <li className={styles.thirdLineHome}></li>
               </ul>
@@ -237,13 +234,12 @@ const Home = () => {
             <div>
               <ul className={styles.nameList}>
                 <li
-                  className={`${styles.homeHeader2} ${styles.homeNameOccupationIphone} ${styles.center}`}
+                  className={`${styles.homeHeader2} ${styles.homeNameOccupationIpahone} ${styles.center}`}
                 >
-                  We Guarentee 100% Satisfaction!
+                  An Absolutely No Risk Investment!
                 </li>
                 <li className={`${styles.homeDescription2} ${styles.center}`}>
-                  Try Macomb & Oakland County's Pristine Pressure Washing
-                  Risk-Free Today
+                  If You Don't Love The Job, Get Your Money Back Guarenteed
                 </li>
                 <li className={styles.thirdLineHome}></li>
               </ul>
@@ -269,14 +265,13 @@ const Home = () => {
             {/* <img src={Housewash} className={styles.backgroundImg} alt="" /> */}
             <div>
               <ul className={styles.nameList}>
-                <li className={`${styles.homeDescription2} ${styles.center}`}>
-                  We Want You To Know...
-                </li>
                 <li
-                  className={`${styles.homeHeader2} ${styles.homeNameOccupationIphone} ${styles.center}`}
+                  className={`${styles.homeDescription2} ${styles.center}`}
+                ></li>
+                <li
+                  className={`${styles.homeHeader4} ${styles.homeNameOccupationIphone} ${styles.center}`}
                 >
-                  We're Commited To{" "}
-                  <span className={styles.span1}>Your Happiness</span>
+                  Great Services, Better Benefits
                 </li>
                 <li className={styles.thirdLineHome}></li>
               </ul>

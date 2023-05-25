@@ -7,9 +7,7 @@ import stars from "../img/5stars.png";
 const Reviews = () => {
   return (
     <div className="reviews-background">
-      <p className="reviews-title">
-        What Your Neighbors Have Been Saying About Us
-      </p>
+      <p className="reviews-title">Don't Just Take Our Word For It...</p>
       <div className="reviews-container">
         <div className="reviews-section">
           <div className="reviews-quotecontainer">
