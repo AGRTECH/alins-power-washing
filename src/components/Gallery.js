@@ -30,7 +30,6 @@ import kriskumar3 from "../img/kriskumargraffiti1.JPG";
 import kriskumar4 from "../img/kriskumargraffiti2.JPG";
 import kriskumar5 from "../img/kriskumar3.jpg";
 import kriskumarvid from "../img/kriskumarvid1.MOV";
-import cabana from "../img/beforeaftercabananotext.jpg";
 import justinroof from "../img/justinroof.jpg";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
@@ -129,7 +128,13 @@ const Gallery = () => {
                 <img src={kriskumar4} className={styles.gutterImg} alt="" />
               </div>
               <div className={styles.galleryCard}>
-                <img src={cabana} className={styles.galleryImg} alt="" />
+                <video controls loop muted className={styles.galleryImg}>
+                  <source
+                    className={styles.krisvideo}
+                    src={kriskumarvid}
+                    type="video/mp4"
+                  ></source>
+                </video>
               </div>
               <div className={styles.galleryCard}>
                 <img src={kriskumar2} className={styles.galleryImg} alt="" />
