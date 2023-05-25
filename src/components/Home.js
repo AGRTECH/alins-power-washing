@@ -346,10 +346,10 @@ const Home = () => {
                   <li
                     className={`${styles.fontSizeDescription} ${styles.textWhite} ${styles.margBot3} ${styles.margLeft}`}
                   >
-                    <p>Website Design by</p>
-                    <a href="https://flurrix.vercel.app/home">
-                      <img className="footer-flurrix" src={flurrix} alt="" />
-                    </a>
+                    {/* <p>Website Design by</p> */}
+                    {/* <a href="https://flurrix.vercel.app/home"> */}
+                    {/* <img className="footer-flurrix" src={flurrix} alt="" /> */}
+                    {/* </a> */}
                   </li>
                   <li
                     className={`${styles.fontSizeDescription} ${styles.textWhite}`}
